@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    /* default value  */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;     
+    border: 2px dashed black;
+    height: 200px;
+    gap: 10px;
+
+}
+
+
+.col {
+    /* flex-grow: 1; */
+    height: 100px;
+    min-width: 100px;
+    background-color: aqua;
+    border: 2px dashed rgb(167, 50, 167);
+}
